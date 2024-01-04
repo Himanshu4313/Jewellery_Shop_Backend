@@ -1,0 +1,21 @@
+{
+  "name": "jwelleryshop",
+  "version": "1.0.0",
+  "description": "jewellery shop show all the collection of jewellery which are trending in market",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js",
+    "dev":"nodemon server.js"
+  },
+  "keywords": [
+    "MERN",
+    "REACT",
+    "REDUX",
+    "NODEJS",
+    "EXPRESSJS",
+    "MONGODB"
+  ],
+  "author": "Himanshu Kumar",
+  "license": "ISC"
+}
