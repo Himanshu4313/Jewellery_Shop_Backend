@@ -74,9 +74,9 @@
 - **User Authentication**: Secure user authentication for customer accounts.
 - **Order Processing**: Handle customer orders and transactions.
 - **Category Management**: Categorize jewelry products for easy navigation.
--**Search and Filters**: Allow users to search for products and apply filters.
--**Wishlist**: Allow users to wishlist they favorite items.
--**addToCart**: Allow users to add item into addToCart.
+- **Search and Filters**: Allow users to search for products and apply filters.
+- **Wishlist**: Allow users to wishlist they favorite items.
+- **addToCart**: Allow users to add item into addToCart.
 
 ## Getting Started
 
@@ -93,10 +93,12 @@
 ## Installation
      
      if you install these application first create a folder 
+
      ```
       mkdir jewelleryShop
      
      ```
+
    if you once created this then follow these command for installation
 
    ```
@@ -110,12 +112,14 @@
   https://github.com/Himanshu4313/Jewellery_Shop_Backend.git
   
   ```
+
   2. install dependencies
 
   ```
     npm install <dependencies> that require in this project 
 
   ```
+
   3. And setup .env file like 
   
   ```
@@ -124,7 +128,9 @@
    MONGODB_URI=<mongodb link>
   
   ```
-  4. if you once complete the installation then run this command 
+
+  4. if you once complete the installation then run this command
+   
 
   ```
    
