@@ -43,7 +43,10 @@ const userSchema = new Schema({
        },
 
        password:{
-            type:String,
+          type: String,
+          required: [true, "password must be required"],
+          select: false,
+          minLength: [8, "password at least 8 character"],
        },
 
        ForgotPasswordToken:{
@@ -61,6 +64,18 @@ const userSchema = new Schema({
            enum:['CUSTOMER','ADMIN'],
            default:'CUSTOMER'
       },
+      otp : {
+          type: Number,
+          required:[true , 'Please enter your OTP'],
+          select:false
+      },
+
+      otpExpiryTime :{
+
+          type: Date
+
+      }
+
 
 },{
     timestamps:true
